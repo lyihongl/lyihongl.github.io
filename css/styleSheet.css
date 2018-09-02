@@ -1,3 +1,15 @@
+body{
+	text-align: center;
+	font: normal 16px Trebuchet MS;
+	color:rgb(83, 173, 171);
+	background-color: rgb(196, 252, 251);
+}
 h1{
-	color:red;
+	font: normal 90px Trebuchet MS;
+	line-height: 0;
+	padding-top: 90px;
+	padding-bottom: 0px;
+}
+p{
+	line-height: 0px;
 }
