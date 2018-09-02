@@ -21,8 +21,8 @@ button[name="GitHubLink"]{
     cursor:pointer;
     overflow: hidden;
     outline:none;
-    width: 64px;
-    height: 64px;
+    width: 10%;
+    height: auto;
 }
 
 button[name="GitHubLink"] img{
