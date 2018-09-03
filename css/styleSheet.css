@@ -12,20 +12,42 @@ h1{
 }
 p{
 	line-height: 0px;
+	padding-bottom: 5%;
 }
 
-button[name="GitHubLink"]{
+button{
 	background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
     overflow: hidden;
     outline:none;
-    width: 10%;
-    height: auto;
+    width: 120px;
+    height: 120px;
+/*    padding-bottom: 4%;
+*/
+
 }
 
-button[name="GitHubLink"] img{
+button[name="GitHubLink"]{
+	border-radius: 100%;
+}
+
+span{
+	font-size: 200%;
+}
+
+button img{
 	width:100%;
 	height: auto;
+	display:inline-block;
+  	vertical-align:middle;
+}
+
+#top{
+	padding-bottom: 2%;
+}
+
+#bottom{
+	margin-left: 0.94%
 }
