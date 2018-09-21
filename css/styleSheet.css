@@ -1,9 +1,7 @@
 
 body{
 	text-align: center;
-
 	font: normal 16px Trebuchet MS;
-
 	color:rgb(83, 173, 171);
 	background-color: rgb(196, 252, 251);
 }
@@ -53,14 +51,14 @@ button img{
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
 	body{
-		font: normal 40px Trebuchet MS;
+		font: normal 20px Trebuchet MS;
 		color:rgb(83, 173, 171);
 
 	}
 	h1{
-		font: normal 200px Trebuchet MS;
+		font: normal 300% Trebuchet MS;
 		line-height: 0;
 		padding-top: 10%;
 		padding-bottom: 0.7%;
@@ -68,7 +66,7 @@ button img{
 	p{
 		line-height: 0px;
 		padding-bottom: 5%;
-		font: normal 50px Trebuchet MS;
+		font: normal 100% Trebuchet MS;
 	}
 	button{
 		background-color: Transparent;
@@ -77,17 +75,20 @@ button img{
 	    cursor:pointer;
 	    overflow: hidden;
 	    outline:none;
-	    width: 300px;
-	    height: 300px;
+	    width: 35%;
+	    height: 35%;
 
 
 	}
+	button[name="GitHubLink"]{
+		border-radius: 100%;
+	}
     #bottom{
-    	margin-top:5%;
+    	margin-top:0%;
 		margin-left: 4.5%
 	}
 	span{
-		font-size: 300%;
+		font-size: 250%;
 	}
 
 }
