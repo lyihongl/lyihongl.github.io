@@ -75,26 +75,28 @@ button img{
 	    cursor:pointer;
 	    overflow: hidden;
 	    outline:none;
-	    width: 20%;
+	    width: 22%;
 	    height: auto;
 
 
 	}
 	button img{
-	width:100%;
-	height: auto;
-	display:inline-block;
-  	vertical-align:middle;
-}
+		width:100%;
+		height: auto;
+		display:inline-block;
+	  	vertical-align:middle;
+	}
 	button[name="GitHubLink"]{
 		border-radius: 100%;
 	}
     #bottom{
-    	margin-top:0%;
+    	margin-top:4%;
 		margin-left: 4.5%
 	}
 	span{
-		font-size: 250%;
+		/*margin-top: 20%;*/
+		/*display: inline-block;*/
+		font-size: 175%;
 	}
 
 }
