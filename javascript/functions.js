@@ -3,5 +3,5 @@ function githubLink(){
 }
 
 function resumeLink(){
-	window.open("https://uurex.github.io/assets/resume.pdf", '_blank');
+	window.open("https://uurex.github.io/assets/Resume-pull-2.pdf", '_blank');
 }	
