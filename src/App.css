@@ -1,19 +1,30 @@
+a:visited {
+  color: blue;
+}
+a:hover {
+  /*background: linear-gradient(to top, #fcf4ab 60%, transparent 70%);*/
+  background: #fcf4ab;
+}
+li {
+  margin-top: 0.5em;
+}
 .container {
   height: calc(100%-100px);
-  max-width: 500px;
+  max-width: 600px;
   padding: 2%;
   margin: 0 auto;
 }
 .header-text {
-  text-align: center;
   font-size: larger;
+  vertical-align: middle;
 }
 .header-margin {
-  margin-top: 2vh;
+  margin-top: 2em;
 }
 
 .body-text {
   margin-top: 1em;
+  text-align: justify;
 }
 
 .volume-logo {
@@ -23,6 +34,7 @@
 }
 .volume-button {
   margin-left: 0.5em;
+  align-self: center;
 }
 .body-text {
   width: 640 px;
