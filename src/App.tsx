@@ -35,7 +35,7 @@ function App() {
         <a href="yh22liu@uwaterloo.ca">Email</a>
       </BodyText>
       <BodyText>
-        3rd year Computer Engineering student @ UW. Interested in game
+        3rd year Computer Engineering student @ UWaterloo. Interested in game
         development and capital markets.
       </BodyText>
       <BodyText>Here's where I've worked:</BodyText>
