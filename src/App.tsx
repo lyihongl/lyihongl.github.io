@@ -70,7 +70,9 @@ function App() {
           out of GCP credits, but the model is kind of ok [Python, GCP]
         </li>
       </ul>
-      Here is a very cherry picked sample that we generated :)
+      <BodyText className="indent-text">
+        Here is a very cherry picked sample that we generated :)
+      </BodyText>
       <ReactAudioPlayer
         src={ai_midi_demo}
         controls

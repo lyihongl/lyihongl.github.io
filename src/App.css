@@ -11,18 +11,22 @@ li {
 .container {
   height: calc(100%-100px);
   max-width: 600px;
-  padding: 2%;
   margin: 0 auto;
+  padding: 1%;
 }
 .header-text {
   font-size: larger;
   vertical-align: middle;
 }
 .header-margin {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 .sound-player {
   margin-top: 1em;
+  margin-left: 2.4em;
+}
+.indent-text {
+  margin-left: 2.4em;
 }
 
 .body-text {
