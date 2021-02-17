@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.34d0ee1b.chunk.css",
-    "main.js": "/static/js/main.22bec684.chunk.js",
-    "main.js.map": "/static/js/main.22bec684.chunk.js.map",
+    "main.css": "/static/css/main.d9e9340c.chunk.css",
+    "main.js": "/static/js/main.1353d795.chunk.js",
+    "main.js.map": "/static/js/main.1353d795.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.368d72ba.js",
     "runtime-main.js.map": "/static/js/runtime-main.368d72ba.js.map",
     "static/js/2.fd635386.chunk.js": "/static/js/2.fd635386.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.c1142479.chunk.js": "/static/js/3.c1142479.chunk.js",
     "static/js/3.c1142479.chunk.js.map": "/static/js/3.c1142479.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.34d0ee1b.chunk.css.map": "/static/css/main.34d0ee1b.chunk.css.map",
+    "static/css/main.d9e9340c.chunk.css.map": "/static/css/main.d9e9340c.chunk.css.map",
     "static/js/2.fd635386.chunk.js.LICENSE.txt": "/static/js/2.fd635386.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/CascadiaCode-Light.99fb8827.ttf",
     "static/media/ai-midi-demo.165e7c98.mp3": "/static/media/ai-midi-demo.165e7c98.mp3",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.368d72ba.js",
     "static/js/2.fd635386.chunk.js",
-    "static/css/main.34d0ee1b.chunk.css",
-    "static/js/main.22bec684.chunk.js"
+    "static/css/main.d9e9340c.chunk.css",
+    "static/js/main.1353d795.chunk.js"
   ]
 }
