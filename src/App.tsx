@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
+import { Button, makeStyles } from "@material-ui/core";
 import logo from "./logo.svg";
 import "./App.css";
 import VolumeLogo from "./assets/reduced-volume.svg";
 import BodyText from "./BodyText";
 import name from "./assets/name.mp3";
+import ai_midi_demo from "./assets/ai-midi-demo.mp3";
+import AudioPlayer from "./components/audioPlayer";
 
 function App() {
   let audio = new Audio(name);
@@ -17,10 +20,14 @@ function App() {
   return (
     <div className="container">
       <div className="header-text header-margin">
-        Hello, My name is Yihong Liu
-        <button className="volume-button" onClick={start}>
+        Hello, My name is Yihong Liu&nbsp;
+        <Button
+          style={{ minWidth: "0px" }}
+          className="volume-button"
+          onClick={start}
+        >
           <img src={VolumeLogo} className="volume-logo"></img>
-        </button>
+        </Button>
       </div>
       <BodyText>
         <a
@@ -32,7 +39,7 @@ function App() {
         <a href="https://github.com/lyihongl" target="_blank">
           Github
         </a>{" "}
-        <a href="yh22liu@uwaterloo.ca">Email</a>
+        <a href="mailto: yh22liu@uwaterloo.ca">Email</a>
       </BodyText>
       <BodyText>
         3rd year Computer Engineering student @ UWaterloo. Interested in game
@@ -61,6 +68,9 @@ function App() {
           : architected model in Keras to produce new MIDIs. We eventually ran
           out of GCP credits, but the model is kind of ok [Python, GCP]
         </li>
+      </ul>
+      <AudioPlayer audioName={ai_midi_demo}></AudioPlayer>
+      <ul>
         <li>
           <a href="https://github.com/lyihongl/evosim" target="_blank">
             EvoSim
