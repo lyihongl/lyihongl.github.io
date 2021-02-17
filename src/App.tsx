@@ -7,6 +7,7 @@ import BodyText from "./BodyText";
 import name from "./assets/name.mp3";
 import ai_midi_demo from "./assets/ai-midi-demo.mp3";
 import AudioPlayer from "./components/audioPlayer";
+import ReactAudioPlayer from "react-audio-player";
 
 function App() {
   let audio = new Audio(name);
@@ -69,7 +70,12 @@ function App() {
           out of GCP credits, but the model is kind of ok [Python, GCP]
         </li>
       </ul>
-      <AudioPlayer audioName={ai_midi_demo}></AudioPlayer>
+      Here is a very cherry picked sample that we generated :)
+      <ReactAudioPlayer
+        src={ai_midi_demo}
+        controls
+        className="sound-player"
+      ></ReactAudioPlayer>
       <ul>
         <li>
           <a href="https://github.com/lyihongl/evosim" target="_blank">
