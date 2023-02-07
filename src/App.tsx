@@ -49,11 +49,12 @@ function App() {
       </BodyText>
       <BodyText>
         I take pictures sometimes - recently I went on exchange to 
-        National Taiwan University, and took some <a href="exchange">pictures</a>
+        National Taiwan University and took some <a href="/#/exchange">pictures</a>
       </BodyText>
       <BodyText>
         Currently in progress - I'm trying to teach myself FPGA by making a series of CPU's in verilog.
-        Follow my progress <a href="">here</a>.
+        Follow my progress <a href="/#/verilog">here</a>. My goal is to eventually work in the HFT industry
+        either as a C++ engineer or an FPGA engineer.
       </BodyText>
       <BodyText>Here's some of my experience:</BodyText>
       <ul>

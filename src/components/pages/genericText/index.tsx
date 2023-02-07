@@ -7,6 +7,7 @@ import campus2 from "./campus2.jpg";
 const Page: React.FC<any> = ({}) => {
   return (
     <div className="container">
+        <a href="#">Home</a>
       <div
         className="header-text header-margin"
         style={{ textAlign: "center" }}
