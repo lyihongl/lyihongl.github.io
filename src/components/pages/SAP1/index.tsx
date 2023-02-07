@@ -16,7 +16,7 @@ const AluPage: React.FC<any> = ({}) => {
       <div style={{paddingTop: "5vh"}}>
         Part of the reason I choose ECE as my major was because I was interested in how
         computers worked at a low level. Throughout undergrad we had some courses in digital hardware,
-        however, due to the heavy workload at the time, it felt like I was just cramming for an exam, and
+        however, due to the heavy workload at the time, it felt like I was just cramming for an exam and
         not doing much learning. I have decided to revisit this topic on my own terms, and I am documenting
         my progress here.
       </div>
