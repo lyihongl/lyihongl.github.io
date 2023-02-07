@@ -9,6 +9,7 @@ import ai_midi_demo from "./assets/ai-midi-demo.mp3";
 import AudioPlayer from "./components/audioPlayer";
 import ReactAudioPlayer from "react-audio-player";
 
+
 function App() {
   let audio = new Audio(name);
   useEffect(() => {
@@ -43,15 +44,32 @@ function App() {
         <a href="mailto: yh22liu@uwaterloo.ca">Email</a>
       </BodyText>
       <BodyText>
-        3rd year Computer Engineering student @ UWaterloo. Interested in game
-        development and capital markets.
+        4th year Computer Engineering student @ UWaterloo. Interested in asic/digital design
+        and capital markets.
       </BodyText>
-      <BodyText>Here's where I've worked:</BodyText>
+      <BodyText>
+        I take pictures sometimes - recently I went on exchange to 
+        National Taiwan University, and took some <a href="exchange">pictures</a>
+      </BodyText>
+      <BodyText>
+        Currently in progress - I'm trying to teach myself FPGA by making a series of CPU's in verilog.
+        Follow my progress <a href="">here</a>.
+      </BodyText>
+      <BodyText>Here's some of my experience:</BodyText>
       <ul>
-        <li>PointClickCare - Software Engineering Co-op</li>
-        <li>TD Securities, Structured Notes - Summer Associate</li>
-        <li>University of Waterloo - Undergraduate TA</li>
-        <li>Axsium Group - Solutions Developer Co-op</li>
+        <li>Amazon - SDE Intern, RDS backups and exports team <div>(Summer 2023)</div></li>
+        {/* <li>Foreign exchange - National Taiwan University <div>
+          (Fall 2022) -&nbsp;
+          <a href="/exchange">Pictures</a>
+        </div>
+        </li> */}
+        <li>Amazon - SDE Intern, RDS backups and exports team <div>(Summer 2022)</div></li>
+        <li>Asana - Infrastructure Security Intern (Winter 2022)</li>
+        <li>Shopify - Backend Developer Co-op (Fall 2021)</li>
+        <li>PointClickCare - Software Engineering Co-op (Winter 2021)</li>
+        <li>TD Securities, Structured Notes - Summer Associate <div>(Summer 2020)</div></li>
+        <li>University of Waterloo - Undergraduate TA (Fall 2019)</li>
+        <li>Axsium Group - Solutions Developer Co-op (Winter 2019)</li>
       </ul>
       <BodyText>
         I like to tinker a lot, but have a tendency to never finish my side

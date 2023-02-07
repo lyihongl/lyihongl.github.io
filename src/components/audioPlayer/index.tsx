@@ -1,5 +1,5 @@
 import { Button, Grid, Slider } from "@material-ui/core";
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState} from "react";
 import playIcon from "./play.svg";
 import "./styles.css";
 

@@ -1,5 +1,8 @@
+a {
+  color: #0066CC;
+}
 a:visited {
-  color: blue;
+  color: #0066CC;
 }
 a:hover {
   /*background: linear-gradient(to top, #fcf4ab 60%, transparent 70%);*/
@@ -73,7 +76,8 @@ li {
 }
 
 .App-link {
-  color: #61dafb;
+  /* color: #61dafb; */
+  color: #0066CC;
 }
 
 @keyframes App-logo-spin {
