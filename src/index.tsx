@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Page from "./components/pages/genericText";
 import AluPage from "./components/pages/SAP1";
+import VerilogRoute from "./components/pages/verilog";
 
 // const router = createHashRouter([
 //   {
@@ -24,7 +25,8 @@ ReactDOM.render(
   <React.StrictMode>
     <HashRouter>
       <Routes>
-        <Route path="verilog" element={<AluPage/>}/>
+        <Route path="sap-1" element={<AluPage/>}/>
+        <Route path="verilog" element={<VerilogRoute/>}/>
         <Route path="exchange" element={<Page/>}/>
         <Route path="" element={<App/>}/>
       </Routes>

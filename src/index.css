@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 @font-face {
   font-family: "MyFont";
   src: local("MyFont"), url(./assets/CascadiaCode-Light.ttf) format("truetype");
@@ -5,9 +7,9 @@
 
 body {
   margin: 0;
-  font-family: "MyFont"; /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;*/
+  /* font-family: "MyFont"; */
+  font-family: -apple-system, 'Lora',
+    serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
