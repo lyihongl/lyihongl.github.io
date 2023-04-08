@@ -7,6 +7,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Page from "./components/pages/genericText";
 import AluPage from "./components/pages/SAP1";
 import VerilogRoute from "./components/pages/verilog";
+import Hihi from "./components/pages/hihi";
 
 // const router = createHashRouter([
 //   {
@@ -25,6 +26,7 @@ ReactDOM.render(
   <React.StrictMode>
     <HashRouter>
       <Routes>
+        <Route path="hihi" element = {<Hihi/>}/>
         <Route path="sap-1" element={<AluPage/>}/>
         <Route path="verilog" element={<VerilogRoute/>}/>
         <Route path="exchange" element={<Page/>}/>
