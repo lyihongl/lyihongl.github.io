@@ -11,5 +11,6 @@ I've done a number of internships during my time in uni, and went on foreign exc
 - Asana SWE Intern - Infrastructure Security (Jan - April 2022)
 - Shopify Backend Developer Intern - Flow (Sept - Dec 2021)
 
-Go to [test-page](test-page.md)
-![night market](./night-market.jpg)
+##### Projects
+- [Game dev](game-dev.md)
+- [FPGA](fpga.md)
