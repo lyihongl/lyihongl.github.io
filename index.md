@@ -9,7 +9,8 @@ I started doing Judo in Taiwan and fell in love with the sport, and try to train
 the next 3-4 years.
 
 ##### Most recent experience
-- Amazon SDE Intern - AWS RDS Exports (Summer 2022, Summer 2023)
+- Amazon SDE Intern - AWS RDS Exports (May - Aug 2023)
+- Amazon SDE Intern - AWS RDS Exports (May - Aug 2022)
 - Asana SWE Intern - Infrastructure Security (Jan - April 2022)
 - Shopify Backend Developer Intern - Flow (Sept - Dec 2021)
 
@@ -19,4 +20,6 @@ the next 3-4 years.
 - [Photography](photography.md)
 - [Judo](judo.md)
 
-![night market](./night-market.jpg)
+A night market in Taiwan, taken by me. This is probably my favorite photo.
+
+![night market](./photos/night-market.jpg)
