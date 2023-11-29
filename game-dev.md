@@ -22,6 +22,74 @@ with an underdamped system, thus it over rotates and bounces back and forth.
 
 ![rotate-1](./gifs/rotate-1.gif)
 
+Below are some code snippets used to produce the above behavior.
+
+RK4 Solver:
+
+```c++
+double accel(double x, double dx, double y, double dy, double t, double c1,
+             double c2, double c3) {
+    return (x + c3 * dx - y - c1 * dy) / c2;
+}
+
+glm::dvec2 Physics::evaluate(double target, const glm::dvec2& y,
+                             const glm::dvec2& dy, double t, double dt) {
+    glm::dvec2 state = { 
+        y[0] + dy[0] * dt,
+        y[1] + dy[1] * dt
+    };
+    glm::dvec2 output = {
+        state[1],
+        accel(target, 0.005, y[0], y[1], t+dt, 0.01, 0.0001, 0)
+    };
+    return output;
+}
+
+glm::dvec2 Physics::RK4(double target, const glm::dvec2& state,
+                        const glm::dvec2& d0, double t, double dt) {
+    glm::dvec2 k1, k2, k3, k4;
+    k1 = evaluate(target, state, d0, t, dt);
+    k2 = evaluate(target, state, k1, t, dt * 0.5f);
+    k3 = evaluate(target, state, k2, t, dt * 0.5f);
+    k4 = evaluate(target, state, k3, t, dt);
+
+    double dxdt = dt / 6.0 * (k1[0] + 2 * k2[0] + 2 * k3[0] + k4[0]);
+    double dvdt = dt / 6.0 * (k1[1] + 2 * k2[1] + 2 * k3[1] + k4[1]);
+    return {dxdt, dvdt};
+}
+```
+
+How to use the RK4 solver:
+
+```c++
+glm::vec2 state = {0, 0};
+glm::vec2 dState = {0, 0};
+
+// ....
+
+// initialize state
+// state.x = position
+// state.y = velocity
+state.x = angle;
+
+// compute second order eqn
+// dState.x = velocity
+// dstate.y = acceleration
+dState = Physics::RK4(
+            target, state, dState, time,
+            static_cast<double>(delta_time_us) / 10000000);
+
+// update state
+// position += velocity
+// velocity += acceleration
+state += dState;
+
+// use derivative for other things
+// ex: set some other rotational speed to dState.x
+// vrad = dState.x
+
+```
+
 #### Procedurally animated legs
 
 #### Procedurally animated worm/rope
