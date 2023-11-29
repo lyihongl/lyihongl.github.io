@@ -1,5 +1,5 @@
 ---
-title: Yihongs website
+title: Yi Hongs website
 ---
 
 Hello! My name is Yi Hong Liu. I'm currently in my final year of Computer Engineering at the University of Waterloo.
