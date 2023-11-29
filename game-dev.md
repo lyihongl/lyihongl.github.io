@@ -5,6 +5,7 @@ remote_theme: pages-themes/slate
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 ---
+<head>
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
@@ -15,6 +16,7 @@ plugins:
     }
   };
 </script>
+</head>
 
 
 ### Random game dev demos
