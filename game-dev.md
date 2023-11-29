@@ -67,26 +67,33 @@ glm::vec2 dState = {0, 0};
 
 // ....
 
-// initialize state
-// state.x = position
-// state.y = velocity
-state.x = angle;
+// some game loop
+while(some condition to make this 60fps){
+    // update the state with the latest info
+    // state.x = position
+    // state.y = velocity
+    state.x = angle;
 
-// compute second order eqn
-// dState.x = velocity
-// dstate.y = acceleration
-dState = Physics::RK4(
-            target, state, dState, time,
-            static_cast<double>(delta_time_us) / 10000000);
+    // compute second order eqn
+    // dState.x = velocity
+    // dstate.y = acceleration
+    dState = Physics::RK4(
+                target, state, dState, time,
+                static_cast<double>(delta_time_us) / 10000000);
 
-// update state
-// position += velocity
-// velocity += acceleration
-state += dState;
+    // update state
+    // position += velocity
+    // velocity += acceleration
+    state += dState;
 
-// use derivative for other things
-// ex: set some other rotational speed to dState.x
-// vrad = dState.x
+    // use derivative for other things
+    vrad = dState.x;
+    angle += vrad;
+
+    renderSprite(..., angle, ...);
+}
+
+
 
 ```
 
