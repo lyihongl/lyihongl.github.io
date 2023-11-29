@@ -20,6 +20,7 @@ the next 3-4 years.
 - [Photography](photography.md)
 - [Judo](judo.md)
 
-A night market in Taiwan, taken by me. This is probably my favorite photo.
+A night market in Taiwan, taken by me.
 
-![night market](./photos/night-market.jpg)
+<img src="./photos/night-market.jpg" style="margin-left: auto; margin-right: auto; display: block;"/>
+<!-- ![night market](./photos/night-market.jpg) -->

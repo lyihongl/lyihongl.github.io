@@ -11,15 +11,21 @@ Here are a select few shots that I like the most that I took in Taiwan. I have a
 <!-- ![taipei101](./photos/taipei101.jpg) -->
 <img src="./photos/taipei101.jpg" style="height: 80vh; margin-left: auto; margin-right: auto; display: block;"/>
 
-![night-rain](./photos/night-rain.jpg)
+<img src="./photos/night-rain.jpg" style="margin-left: auto; margin-right: auto; display: block;"/>
+<!-- ![night-rain](./photos/night-rain.jpg) -->
 
-![711](./photos/711.jpg)
+<!-- ![711](./photos/711.jpg) -->
+<img src="./photos/711.jpg" style="margin-left: auto; margin-right: auto; display: block;"/>
 
-![teahouse](./photos/teahouse.jpg)
+<!-- ![teahouse](./photos/teahouse.jpg) -->
+<img src="./photos/teahouse.jpg" style="margin-left: auto; margin-right: auto; display: block;"/>
 
-![beach1](./photos/beach1.jpg)
+<!-- ![beach1](./photos/beach1.jpg) -->
+<img src="./photos/beach1.jpg" style="margin-left: auto; margin-right: auto; display: block;"/>
 
-![beach2](./photos/beach2.jpg)
+<img src="./photos/beach2.jpg" style="margin-left: auto; margin-right: auto; display: block;"/>
+
+<!-- ![beach2](./photos/beach2.jpg) -->
 
 <!-- ![beach3](./photos/beach3.jpg)
 
