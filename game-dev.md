@@ -13,11 +13,12 @@ plugins:
 A spring mass system can be modelled by the second order differential equation:
 
 $y + c_1 \frac{dy}{dt} + c_2 \frac{dy^2}{d^2t} = x + c_3 \frac{dx}{dt}$
-where $y$ is the state of our object that we wish to control, and x is the target vector.
+
+where $y$ is the state of our object that we wish to control, and x is the target state.
 For example, if we wanted to rotate an image to a specific angle, y would be our current angle, and x would be the target angle.
 Then depending on the parameters $c_1, c_2, c_3$, we can simulate, underdamped, overdamped, and perfectly damped systems.
 Here is a demo that is using Runga-Kutta 4 to find a numerical solution to the above diff eq. The image is being rotated to an angle
-with an underdamped spring, thus it over rotates and bounces back and forth.
+with an underdamped system, thus it over rotates and bounces back and forth.
 
 ![rotate-1](./gifs/rotate-1.gif)
 
