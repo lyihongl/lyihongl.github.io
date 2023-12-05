@@ -21,7 +21,7 @@ this board contained fuses and a telemetry line to our DAQ to indicate that a fu
 
 <img src="./photos/pdu_bot.jpg" style="margin-left: auto; margin-right: auto; display: block;"/>
 
-<img src="./photos/pduSmall.jpg" style="margin-left: auto; margin-right: auto; display: block;"/>
+<img src="./photos/pduSmall.png" style="margin-left: auto; margin-right: auto; display: block;"/>
 
 Unfortunately I'm fairly certain these never actually ran on the car since covid cancelled the following
 competition season, and thats when I stopped being a team member.
@@ -29,7 +29,7 @@ competition season, and thats when I stopped being a team member.
 I also designed some mechanical pieces, but honestly I had no idea what I was doing and when it came
 time to manufacture these pieces, they were extremely difficult to manufacture.
 
-<img src="./photos/2.png" style="margin-left: auto; margin-right: auto; display: block;"/>
+<img src="./photos/2.PNG" style="margin-left: auto; margin-right: auto; display: block;"/>
 A bracket intended to hold a pressurized gas tank used for the pnuematic shift system.
 
 <img src="./photos/clutch_arm_3.PNG" style="margin-left: auto; margin-right: auto; display: block;"/>
