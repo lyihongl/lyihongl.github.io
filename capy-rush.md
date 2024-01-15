@@ -1,7 +1,9 @@
 ---
 title: CapyRush
 filename: capy-rush.md
+layout: page
 ---
+```html
 <!doctype html><html lang="en"><style media="screen">@font-face {
         font-family: font1;
         src: url('src/assets/RubikDoodleShadow-Regular.ttf');
@@ -13,3 +15,4 @@ filename: capy-rush.md
         margin: 0;
         background-color: #000000;
       }</style><div style="font-family:font1; position:absolute; left:-1000px; visibility:hidden;">.</div><noscript>Please enable javascript to continue using this application.</noscript><script defer="defer" src="vendors.78fc15d6c9fccb418f8f.bundle.js"></script><script defer="defer" src="main.838b03522971bd715be8.bundle.js"></script></head><body><div id="phaser-game"></div></body></html>
+```
