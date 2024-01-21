@@ -1,5 +1,6 @@
 ---
 title: Home
+layout: default
 ---
 
 Hello! My name is Yi Hong Liu. I'm currently in my final year of Computer Engineering at the University of Waterloo.
