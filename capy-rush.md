@@ -1,7 +1,7 @@
 ---
 title: CapyRush
 filename: capy-rush.md
-layout: page
+layout: capy
 ---
 ```html
 <!doctype html><html lang="en"><style media="screen">@font-face {
