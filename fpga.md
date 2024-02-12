@@ -39,4 +39,4 @@ We need to properly annotate our ports with the xilinx interface info:
 
 Then in the block diagram it will show up properly as a BRAM control master interface
 
-![bram_ctrl](/photos/bram_ctrl.png)
+![bram_ctrl](/photos/bram_ctrl.png).
